@@ -1,0 +1,26 @@
+{
+  "name": "test_course",
+  "version": "1.0.0",
+  "description": "This repo contains homework and projects for test course",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "jest": "echo \"Error: no test specified\" && exit 1", 
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex8943/test_course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex8943/test_course/issues"
+  },
+  "homepage": "https://github.com/Alex8943/test_course#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jest": "^29.7.0"
+  }
+}
