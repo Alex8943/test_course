@@ -1,0 +1,21 @@
+{
+  "name": "06_intergration_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "jest": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@everapi/currencyapi-js": "^1.0.6",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "jest": "^29.7.0",
+    "mysql2": "^3.6.1"
+  }
+}

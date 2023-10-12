@@ -3,15 +3,21 @@ let employee;
 
 
 describe('employee', () => {
+    //Arrange
+    let employee;
+
     beforeAll(() => {
         console.log('Test employee');
+        
     });
 
     beforeEach(() => {
+        //Act
         employee = new Employee("1234567890", "John", "Doe", "IT", 30000, 3, new Date(1990, 1, 1), new Date(2010, 1, 1), "Denmark");
     });
 
     it('CPR must be ten digits long, and must contain no letters or signs', () => {
+        //Assert
         expect(employee).toBeInstanceOf(Employee);
         
         expect(employee.cpr).toBe("1234567890");

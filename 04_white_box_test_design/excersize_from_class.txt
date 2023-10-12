@@ -1,6 +1,6 @@
 1. Define a minimum set of test cases for the following pseudocode to reach
-100% statement coverage
-100% decision coverage
+100% statement coverage (Alle linjer i functionen skal være dækket)
+100% decision coverage (Alle muligheder som kan vælge omkring)
 
 IF q <= 5 THEN
 

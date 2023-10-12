@@ -1,4 +1,5 @@
 class Employee {
+    
     #cpr;
     #firstName;
     #lastName;

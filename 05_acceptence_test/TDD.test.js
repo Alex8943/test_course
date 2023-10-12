@@ -12,6 +12,7 @@ describe('data_sctucture', () => {
     });
 });
 
+
 describe('anagrams', () => {
     beforeAll(() => {
         console.log('Test anagrams');

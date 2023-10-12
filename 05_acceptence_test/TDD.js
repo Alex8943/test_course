@@ -1,4 +1,4 @@
-//TDD = test driven development
+//TDD = test driven development og det er 
 
 
 const data_sctucture = function (word){
@@ -13,7 +13,7 @@ const data_sctucture = function (word){
 
 const anagrams = function (word1, word2){
 
-    const cleanWord1 = word2.replace(/[^a-zA-Z]/g, '').toLowerCase();
+    const cleanWord1 = word1.replace(/[^a-zA-Z]/g, '').toLowerCase(); //regex (regular expression)
     const cleanWord2 = word2.replace(/[^a-zA-Z]/g, '').toLowerCase();
 
     const sortedWord1 = cleanWord1.split('').sort().join('');
